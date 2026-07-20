@@ -1,0 +1,22 @@
+# Source textbook PDFs — copyrighted material, don't commit
+*.pdf
+
+# Generated extraction output
+pages_out/
+pages_out_*/
+
+# Generated analysis output
+analysis_out/
+analysis_out_*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env files (don't commit your API key)
+.env
+
+# OS cruft
+.DS_Store
